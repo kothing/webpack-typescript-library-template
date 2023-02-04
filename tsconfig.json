@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "noImplicitAny": true,
+      "outDir": "build/types",
+      "module": "esnext",
+      "target": "es5",
+      "allowJs": true,
+      "sourceMap": true,
+      "declaration": true,
+      // "emitDeclarationOnly": true,
+      "resolveJsonModule": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "moduleResolution": "node",
+    },
+    "include": ["src/lib"],
+    "exclude": ["build", "dist", "src/lib/**/tests"],
+}
