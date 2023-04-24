@@ -15,7 +15,7 @@ Minimal Library Starter Kit for your Typescript projects
 ## 📦 Getting Started
 
 ```
-git clone https://github.com/meta-explore/typescript-library-boilerplate.git
+git clone https://github.com/kothing/typescript-library-boilerplate.git
 npm install
 ```
 
