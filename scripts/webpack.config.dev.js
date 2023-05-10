@@ -1,13 +1,13 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
-  devtool: 'cheap-module-source-map',
-  entry: './src/demo/index.ts',
+  devtool: "cheap-module-source-map",
+  entry: "./src/demo/index.ts",
   output: {
-    filename: 'index.js'
+    filename: "index.js",
   },
   optimization: {
     minimize: false,
@@ -16,7 +16,7 @@ module.exports = {
     open: true,
     hot: true,
     host: "localhost",
-    port: 9000
+    port: 9000,
   },
   module: {
     rules: [
@@ -24,8 +24,8 @@ module.exports = {
         test: /\.(m|j|t)s$/,
         exclude: /(node_modules|bower_components)/,
         use: {
-          loader: 'babel-loader'
-        }
+          loader: "babel-loader",
+        },
       },
       {
         test: /\.(ts|tsx)?$/,
@@ -35,20 +35,17 @@ module.exports = {
       },
       {
         test: /\.(sa|sc|c)ss$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          { loader: "css-loader", options: { sourceMap: true } },
-        ],
-      }
-    ]
+        use: [MiniCssExtractPlugin.loader, { loader: "css-loader", options: { sourceMap: true } }],
+      },
+    ],
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'css/index.css'
+      filename: "css/index.css",
     }),
     new HtmlWebpackPlugin(),
   ],
   resolve: {
-    extensions: ['.ts', '.js', '.json']
-  }
+    extensions: [".ts", ".js", ".json"],
+  },
 };
