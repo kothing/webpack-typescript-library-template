@@ -8,21 +8,21 @@
     "start": "webpack serve --config webpack.config.dev.js",
     "build": "webpack && tsc",
     "build:demo": "webpack --config webpack.config.dev.js",
-    "coverage": "npm run test -- --coverage",
+    "coverage": "npm run test --coverage",
     "prepare": "npm run build",
     "trypublish": "npm publish || true",
     "test": "jest --silent"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/meta-explore/typescript-library-boilerplate"
+    "url": "https://github.com/kothing/typescript-library-boilerplate"
   },
-  "author": "Meta-explore <meta-explore@outlook.com> (https://github.com/meta-explore)",
+  "author": "kothing",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/meta-explore/typescript-library-boilerplate/issues"
+    "url": "https://github.com/kothing/typescript-library-boilerplate/issues"
   },
-  "homepage": "https://github.com/meta-explore/typescript-library-boilerplate",
+  "homepage": "https://github.com/kothing/typescript-library-boilerplate",
   "keywords": [
     "library",
     "starter",
