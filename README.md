@@ -1,4 +1,4 @@
-# Typescript Library Boilerplate
+# Webpack Typescript Library Boilerplate
 
 Minimal Library Starter Kit for your Typescript projects
 
@@ -15,7 +15,7 @@ Minimal Library Starter Kit for your Typescript projects
 ## 📦 Getting Started
 
 ```
-git clone https://github.com/kothing/typescript-library-boilerplate.git
+git clone https://github.com/kothing/webpack-typescript-library-template.git
 npm install
 ```
 
@@ -52,6 +52,4 @@ const libraryInstance = new MyLibrary();
 
 ## ✅ Libraries built with this boilerplate
 
-> Made a library using this starter kit? Share it here by [submitting a pull request](https://github.com/meta-explore/typescript-library-boilerplate/pulls)!
-
-- [Next-Tooltip](https://github.com/meta-explore/next-tooltip) - Next-Tooltip
+> Made a library using this starter kit? Share it here by [submitting a pull request](https://github.com/kothing/webpack-typescript-library-template/pulls)!
