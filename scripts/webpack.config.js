@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const TerserPlugin = require('terser-webpack-plugin');
-const getPackageJson = require('./scripts/getPackageJson');
+const getPackageJson = require('./getPackageJson');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
