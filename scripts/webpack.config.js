@@ -14,7 +14,8 @@ const {
 } = getPackageJson('version', 'name', 'license', 'repository', 'author');
 
 const banner = `
-  ${name} v${version}
+  ${name} 
+  ${version}
   ${repository.url}
 
   Copyright (c) ${author.replace(/ *<[^)]*> */g, " ")} and project contributors.
